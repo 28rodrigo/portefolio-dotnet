@@ -1,22 +1,62 @@
 [
   {
-    "title": "10 Things To Know About Azure Static Web Apps 🎉",
-    "description": "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    "url": "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
+    "title": "Home LAB ",
+    "description": "My configuration for my home lab that have various services running on it.",
+    "url": "https://github.com/28rodrigo/HomeLab"
   },
   {
-    "title": "Web Development for Beginners",
-    "description": "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    "url": "https://github.com/microsoft/web-dev-for-beginners"
+    "title": "Lights Control System",
+    "description": "Light control system based in Esp32 Development Board. This system is supported by a Web APP (built in Next. JS) to control the lights anytime, anywhere.",
+    "url": "https://github.com/28rodrigo/Light-Control-IoT"
   },
   {
-    "title": "My Resume Site",
-    "description": "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    "url": "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
+    "title": "Natural Compution projects",
+    "description": "Swarm intelligence and genetic algorithms, specifically designed to tackle the complex problem of airplane entering.",
+    "url": "https://github.com/28rodrigo/natural-computing"
   },
   {
-    "title": "GitHub Codespaces and github.dev",
-    "description": "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    "url": "https://www.youtube.com/watch?v=c3hHhRME_XI"
+    "title": "Ransomware App",
+    "description": "Ransomware App developed in the security and cryptography curriculum unit.",
+    "url": "https://github.com/28rodrigo/Ransomware_APP"
+  },
+  {
+    "title": "Convert Currency",
+    "description": "Web App for currency conversion built in Next.js.",
+    "url": "https://github.com/28rodrigo/convert-currency"
+  },
+  {
+    "title": "Turnoff Timer",
+    "description": "Shutdown/Reboot timer for Windows 10",
+    "url": "https://github.com/28rodrigo/TurnoffTimer"
+  },
+  {
+    "title": "AIPC - Aplicação de Idosos para Contactos",
+    "description": "Project within the scope of the CU of Personal-Computer Interaction.",
+    "url": "https://github.com/28rodrigo/aipc"
+  },
+  {
+    "title": "Temperature Conversion API",
+    "description": "Node.js Api for temperature conversion",
+    "url": "https://github.com/28rodrigo/api-temperatureconversion"
+  },
+  {
+    "title": "File Transfer",
+    "description": "File Transfer Web App in Next.js ",
+    "url": "https://github.com/28rodrigo/filetransfer_web"
+  },
+  {
+    "title": "DeepLearningCNNs",
+    "description": "Deeplearning model to classify natural landacapes",
+    "url": "https://github.com/28rodrigo/DeepLearningCNNs"
+  },
+  {
+    "title": "Message Log",
+    "description": "Python App to listen RabbitMQ and MQTT brokers and log received messages",
+    "url": "https://github.com/28rodrigo/messagelog"
+  },
+  {
+    "title": "Barcode Scanner",
+    "description": "Flutter app to test a serial barcode scanner",
+    "url": "https://github.com/28rodrigo/flutter_barcodescanner"
   }
 ]

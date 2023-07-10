@@ -1,0 +1,37 @@
+<section class="light" id="articles">
+    <h2>Articles</h2>
+    <div class="portfolio-container">
+    @if (articles is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <div class="container">
+            @foreach (var article in articles)
+            {
+                <div class="box" key="@article.Title">
+                    <a href="@article.Link" target="_blank" rel="noopener noreferrer">
+                        <h3 style="flex-basis: 40px;">@article.Title</h3>
+                    </a>
+                    <p class="small">@article.Authors</p>
+                </div>
+            }
+        </div>
+        @* <div class="cont">In development..</div> *@
+    }
+    </div>
+</section>
+
+@code {
+    [Parameter, EditorRequired]
+    public required HttpClient Http { get; set; }
+
+    private List<Article>? articles;
+
+    protected override async Task OnInitializedAsync()
+    {
+        articles = await Http.GetFromJsonAsync<List<Article>>("sample-data/articles.json");
+        
+    }
+}

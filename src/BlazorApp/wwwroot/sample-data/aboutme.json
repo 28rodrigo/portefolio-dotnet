@@ -1,12 +1,11 @@
 {
-  "description": "I'm a Master's in Informatics Enginnering student with a strong passion for system administration,devOps and system integration.'",
+  "description": "I'm a Master's in Informatics Enginnering student with a strong passion for system administration and systems integration.'",
   "skills": [
     "C# Development",
-    "User experience",
-    "DevOps",
+    "Docker",
     "Problem solving",
     "Mobile development (Flutter)",
-    "Systems Administration"
+    "System Administration"
   ],
   "detailOrQuote": "Driven by a passion for problem-solving and a deep understanding of the complexities of system administration and integration."
 }
